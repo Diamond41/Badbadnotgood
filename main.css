@@ -12,7 +12,7 @@ body {
       position: relative;
   }
 
-.container-fluid, .container {
+.container-fluid {
     padding-right:20px;
     padding-left:15px;
     margin-right: auto;
@@ -21,8 +21,12 @@ body {
     width: auto;
 }
 
-.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, 
-.container > .navbar-header {
+.container {
+}
+
+.container-fluid, .navbar-collapse, .container-fluid, .navbar-header, .container, .navbar-collapse, 
+.container, 
+    .navbar-header {
     position: inherit;
     width: auto;
 }
