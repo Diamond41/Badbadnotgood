@@ -114,10 +114,11 @@ p {
 p1 {
     margin-top: 10px;
 }
-
 .row {
-    padding: 5px;
+    margin: 0;
+    position: fixed;
 }
+
 
 .sr-only {
     position: fixed;
