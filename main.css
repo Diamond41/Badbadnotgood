@@ -114,10 +114,6 @@ p {
 p1 {
     margin-top: 10px;
 }
-.row {
-    margin: 0;
-    position: fixed;
-}
 
 .sr-only {
     position: fixed;
