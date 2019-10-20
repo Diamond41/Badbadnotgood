@@ -71,6 +71,7 @@ body {
 .navbar .navbar-brand {
     font-weight: bold;
     color: white;
+    margin-left: 0;
 }
 
 .navbar .navbar-brand:hover {
