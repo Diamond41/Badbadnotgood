@@ -3,7 +3,7 @@ body {
     width: auto;
     height: auto;
     background-color: grey;
-    margin-left: 0;
+    margin: auto;
  }
 
 .carousel-inner > .item > img,
