@@ -115,6 +115,10 @@ p1 {
     margin-top: 10px;
 }
 
+.row {
+    padding: 5px;
+}
+
 .sr-only {
     position: fixed;
     width: auto;
