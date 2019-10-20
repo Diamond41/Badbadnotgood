@@ -116,6 +116,10 @@ p1 {
     margin-top: 10px;
 }
 
+.row {
+    position: sticky;
+}
+
 .sr-only {
     position: fixed;
     width: auto;
