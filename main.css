@@ -143,6 +143,10 @@ table {
     margin: auto;
 }
 
+video {
+    objec-fit: contain;
+}
+
 .social_fluid {
     position: fixed;
     background-color: lightgrey;
