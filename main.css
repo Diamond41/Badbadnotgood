@@ -56,7 +56,7 @@ background: #205aff;
 }
 
 .toggle {
-display: none;
+display: show;
 }
 
 section {
