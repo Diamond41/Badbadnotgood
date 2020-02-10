@@ -13,37 +13,54 @@
 </head>
 
 <body>
-    <header id= "header">
-    <div class="container-fluid">
-        <ul>
-                    <li><a href="#home" class="active" onclick="toggle()">HOME</a></li>
-                    <li><a href="#catalogue.html" onclick="toggle()">CATALOGUE</a></li>
-                    <li><a href="#avclips.html" onclick="toggle()">AVCLIPS</a></li>
-                    <li><a href="#events.html" onclick="toggle()">EVENTS</a></li>
-                 </ul>
-            <div class="toggle" onclick="toggle()">
+    <header>
+        <div class="container-fluid">
+        <div class="navbar-header">
+        <a class="navbar-brand" href="/">EVENTS</a>
+            <button class="navbar-toggle collapsed" type="button" data-target="#navbar" data-toggle="collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
             </div>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar">
+                <strong>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">HOME</a></li>
+                    <li><a href="catalogue.html">CATALOGUE</a></li>
+                    <li><a href="avclips.html">AVCLIPS</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li class="visible-xs"><a href="">EVENTS</a></li>
+                </ul>
+                </strong>
+            </div>
+        </div>
     </header>
+    <div class="jumbotron text-center"">
+      <h2><strong>EVENTS </h2></strong>
+    </div>
     
-    <div class="jumbotron text-center">
-        <h2><strong>BADBADNOTGOOD</h2>
-        <div class="row">
-            <div class="col-lg-9">
-        <p><strong>An instrumental music group from Toronto, Ontario.
-      </p></strong>
-
- <section id="home">
- <div>
-  <p>The group includes keyboardist Matthew Tavares, bassist Chester Hansen, 
+    <section class="container-fluid">
+        
+    <div class="row">
+        
+    <div class="col-md-8">
+    
+<p><strong>BadBadNotGood is a instrumental music group from Toronto, Ontario.
+</strong></p>
+<p>The group includes keyboardist Matthew Tavares, bassist Chester Hansen, 
 saxophonist Leland Whitty, and drummer Alexander Sowinski. 
 They are known for their interpretations of hip hop tracks and their 
 collaborations with Kendrick Lamar, Tyler, The Creator, Earl Sweatshirt, 
-Denzel Curry, Danny Brown, Mick Jenkins, and Ghostface Killah. </p>
+Denzel Curry, Danny Brown, Mick Jenkins, and Ghostface Killah. 
+  </p>
+  </div>
  </div>
- </div>
- </div>  
- </div>
-  </br>
+ 
+ </section>
+ </br>
    
       <div class="row">
          <div class="col-md-12 col-md-6">
@@ -113,11 +130,7 @@ Denzel Curry, Danny Brown, Mick Jenkins, and Ghostface Killah. </p>
 </li>
 </ul>
 </div>
-<script type="text/javascript">
-function toggle(){
-var header = document.getElementById("header")
-header.classList.toggle('active')
-</script>
+
 </body>
     
 </html>
