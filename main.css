@@ -13,18 +13,21 @@ body {
   }
 
 .container-fluid {
-    padding-right:20px;
-    padding-left:15px;
-    margin-right: auto;
-    margin-left:0;
-    background-color: grey;
-    width: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 150px 100px 100px;
 }
 
 .container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, 
 .container > .navbar-header {
-    position: inherit;
-    width: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    color: #fff;
 }
 
 .jumbotron {
