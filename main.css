@@ -115,15 +115,17 @@ body {
     border-color: #df4929;
     color: white;
 }
+
 .row {
     margin: 50px 0 0;
     max-width: 100%;
 }
+
 .row .col-sm-4 {
     align: center;
 }
 
-.col-md-8 {
+.textarea > text {
     text-align: center;
 }
 
