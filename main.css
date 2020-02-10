@@ -119,15 +119,17 @@ body {
     max-width: 100%;
 }
 .row .col-sm-4 {
-    align: center;
+    align: middle;
 }
 
 p {
     margin-top: 6px;
+    text-align: left;
 }
 
 p1 {
     margin-top: 10px;
+    text-align: left;
 }
 
 .sr-only {
