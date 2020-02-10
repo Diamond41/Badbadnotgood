@@ -124,12 +124,12 @@ body {
 
 p {
     margin-top: 6px;
-    text-align: left;
+    text-align: center;
 }
 
 p1 {
     margin-top: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 .sr-only {
