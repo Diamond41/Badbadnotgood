@@ -120,7 +120,11 @@ body {
     max-width: 100%;
 }
 .row .col-sm-4 {
-    align: middle;
+    align: center;
+}
+
+.col-md-8 {
+    text-align: center;
 }
 
 p {
