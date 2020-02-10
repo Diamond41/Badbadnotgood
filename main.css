@@ -117,6 +117,8 @@ body {
 .row {
     margin: 50px 0 0;
     max-width: 100%;
+}
+.col-sm-4 {
     align: center;
 }
 
