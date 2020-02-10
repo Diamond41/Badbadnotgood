@@ -166,26 +166,137 @@ table {
     background:#e84610;
 }
 
-
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 400px) {
-    .column {
-        width: 50%;
-    }
+@media screen and (max-width: 992px) 
+{
+section
+{
+padding: 100px 50px 50px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+display: flex;
 }
-
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
-    .column {
-        width: 50%;
-    }
+section img
+{
+margin: 50px 0 0;
+max-width: 100%;
 }
-
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
+header ul
+{
+position: absolute;
+top: - 100%;
+left: 0;
+width: 100%;
+height: calc(100vh - 80px);
+padding: 50px 100px;
+text-align: center;
+overflow: auto;
+transition: 0.5s;
+background: #111;
+flex-direction: column;
+opacity: 0;
+transform: translateY(-100%);
 }
+header.active ul
+{
+opacity: 1;
+top: 80px;
+transform: translateY(0);
+}
+header ul li a
+{
+margin: 5px 0;
+font-size: 24px;
+}
+.toggle
+{
+display: block;
+position: relative;
+width: 30px;
+height: 30px;
+cursor: pointer;
+}
+.toggle:before
+{
+content: '';
+position: absolute;
+top: 4px;
+width: 100%;
+height: 2px;
+background: #fff;
+z-index: 1;
+box-shadow: 0 10px 0 #fff;
+transition: 0.5s;
+}
+.toggle:before
+{
+content: '';
+position: absolute;
+top: 4px;
+width: 100%;
+height: 2px;
+background: #fff;
+z-index: 1;
+box-shadow: 0 10px 0 #fff;
+transition: 0.5s;
+}
+.toggle:before
+{
+content: '';
+position: absolute;
+top: 4px;
+width: 100%;
+height: 2px;
+background: #fff;
+z-index: 1;
+box-shadow: 0 10px 0 #fff;
+transition: 0.5s;
+}
+.toggle:before
+{
+content: '';
+position: absolute;
+top: 4px;
+width: 100%;
+height: 2px;
+background: #fff;
+z-index: 1;
+box-shadow: 0 10px 0 #fff;
+transition: 0.5s;
+}
+.toggle:before
+{
+content: '';
+position: absolute;
+top: 4px;
+width: 100%;
+height: 2px;
+background: #fff;
+z-index: 1;
+box-shadow: 0 10px 0 #fff;
+transition: 0.5s;
+}
+.toggle:after
+{
+content: '';
+position: absolute;
+bottom: 4px;
+width: 100%;
+height: 2px;
+background: #fff;
+z-index: 1;
+box-shadow: 0 10px 0 #fff;
+transition: 0.5s;
+}
+header.active .toggle:before
+{
+top: 14px;
+transform: rotate(45deg);
+box-shadow: 0 10px 0 #fff;
+}
+header.active .toggle:after
+{
+bottom: 14px;
+transform: rotate(45deg);
 
-
+}
