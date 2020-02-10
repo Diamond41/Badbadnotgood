@@ -66,8 +66,11 @@ body {
 }
 
 .navbar .navbar-brand {
-    font-weight: bold;
-    color: white;
+    color: #fff;
+    font-size: 30px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 700;
 }
 
 .navbar .navbar-brand:hover {
@@ -107,10 +110,6 @@ body {
     background-color: #df4929;
     border-color: #df4929;
     color: white;
-}
-
-.toggle {
-    display: none;
 }
 
 p {
