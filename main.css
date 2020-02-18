@@ -124,6 +124,8 @@ body {
 
 img src{
     align: left;
+    width:200px;
+    height:300px;
 }
 
 #text {
