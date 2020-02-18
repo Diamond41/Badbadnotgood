@@ -122,10 +122,13 @@ body {
     height: auto;
 }
 
-div img {
+.col-sm-4 .img src {
     align: left;
     width:200px;
     height:300px;
+    pading:5px;
+    border: 1px solid blue;
+    background-color: transparent;
 }
 
 #text {
