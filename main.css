@@ -35,6 +35,7 @@ body {
     margin-top: 6px;
     width: auto;
     height: auto;
+    align:center;
     background:white;
 }
 
@@ -222,6 +223,7 @@ section img
 {
 margin: 50px 0 0;
 max-width: 100%;
+align: center;
 }
     
 header ul
