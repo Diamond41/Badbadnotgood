@@ -123,6 +123,13 @@ body {
     height: auto;
 }
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+
 .img src {
     align: left;
     width:200px;
